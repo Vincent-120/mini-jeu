@@ -3,7 +3,7 @@ let prix;
 prix = Math.round(Math.random(1,100)*(100-1)+1);
 console.log(prix);
 
-document.getElementById("indice").innerHTML ='Entré un chiffre'
+document.getElementById("indice").innerHTML ='Entré un chiffre entre 1 & 100'
 ///lecteur input
 let comfirme,nbr,choose;
 document.getElementById('run').addEventListener('click',() =>{
@@ -31,7 +31,7 @@ document.getElementById('run').addEventListener('click',() =>{
         if (comfirme == true) {
             prix = Math.round(Math.random(1,100)*(100-1)+1);
             console.log(prix)
-            document.getElementById("indice").innerHTML ="Indiquer a nouveau un chiffre"
+            document.getElementById("indice").innerHTML ="Indiquer a nouveau un chiffre entre 1 & 100"
         }
         else{
             document.getElementById("indice").innerHTML="Merci d'avoir participer a ce petit jeu !"
