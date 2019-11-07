@@ -1,0 +1,32 @@
+
+.containe{
+    display: flex;
+    justify-content: center;
+}
+
+div.title{
+    display: flex;
+    justify-content: center;
+    font-size: 430%;
+}
+p{
+    font-family: 'Lora', serif;
+    align-self: center;
+}
+.containe2{
+    display: flex;
+    justify-content: center;
+}
+input{
+    align-self: center;
+}
+.containe3{
+    display: flex;
+    justify-content: center;
+}
+#indice{
+    padding-top: 2.5%;
+    font-family: 'Lora', serif;
+    font-size: 430%;
+    align-self: center;
+}
