@@ -1,9 +1,10 @@
-let prix;
 //generation du chiffre aleatoire
+let prix;
 prix = Math.round(Math.random(1,100)*(100-1)+1);
 console.log(prix);
-//lecteur input
 
+document.getElementById("indice").innerHTML ='Entré un chiffre'
+///lecteur input
 let comfirme,nbr,choose;
 document.getElementById('run').addEventListener('click',() =>{
     nbr = document.getElementById('target').value;
