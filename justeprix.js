@@ -30,7 +30,7 @@ document.getElementById('run').addEventListener('click',() =>{
         if (comfirme == true) {
             prix = Math.round(Math.random(1,100)*(100-1)+1);
             console.log(prix)
-            jeux()
+            document.getElementById("indice").innerHTML ="Indiquer a nouveau un chiffre"
         }
         else{
             document.getElementById("indice").innerHTML="Merci d'avoir participer a ce petit jeu !"
