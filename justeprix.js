@@ -13,7 +13,7 @@ document.getElementById('run').addEventListener('click',() =>{
     jeux()
     function jeux(){
         if (/\D/.test(choose)){
-            document.getElementById("indice").innerHTML= "Introduit un chiffres entre 1 & 100"
+            document.getElementById("indice").innerHTML= "Introduis un chiffres entre 1 & 100"
             jeux()
         }
         if (choose == prix) {
